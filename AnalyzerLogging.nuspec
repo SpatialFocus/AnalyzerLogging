@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>AnalyzerLogging</id>
+        <version>1.0.0-alpha1</version>
+        <title>AnalyzerLogging</title>
+        <authors>Spatial Focus GmbH</authors>
+        <owners>Spatial Focus GmbH</owners>
+        <licenseUrl>https://github.com/SpatialFocus/AnalyzerLogging/blob/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/SpatialFocus/AnalyzerLogging</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/SpatialFocus/AnalyzerLogging/master/images/sf.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Enables log file generation of .net analyzers in the build process. Recommended for nabble.io integration.</description>
+        <summary />
+        <language>en-US</language>
+        <tags>Log, Logging, DotNetAnalyzers, Analyzer, Roslyn, Diagnostic</tags>
+        <developmentDependency>true</developmentDependency>
+        <dependencies />
+    </metadata>
+    <files>
+        <file src="build\AnalyzerLogging.props" target="build" />
+    </files>
+</package>
