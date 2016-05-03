@@ -4,11 +4,11 @@ When using .NET analyzers (see [.NET Compiler Platform](https://github.com/dotne
 
 To make this configuration step more convenient you can use AnalyzerLogging which adds
 
-        <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-            <PropertyGroup>
-                <ErrorLog>$(MSBuildProjectDirectory)\report.json</ErrorLog>
-            </PropertyGroup>
-        </Project>
+    <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+        <PropertyGroup>
+            <ErrorLog>$(MSBuildProjectDirectory)\report.json</ErrorLog>
+        </PropertyGroup>
+    </Project>
 
 via a shared props file.
 
