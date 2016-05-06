@@ -15,3 +15,5 @@ via a shared props file.
 To install AnalyzerLogging, run the following command in the Package Manager Console
 
     Install-Package AnalyzerLogging
+
+This package is recommended to be used together with [nabble.io](https://nabble.io). Nabble.io is open-source and can be viewed in [Github](https://github.com/SpatialFocus/nabble.io).
